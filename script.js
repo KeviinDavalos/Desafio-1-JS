@@ -19,24 +19,6 @@ console.log(productos)
 console.log("Se elimino del carrito el Espejo Especial y se agrego el Espejo Personalizados")
 
 
-/*
-do{
-    pedido = prompt("Desea eliminar el ultimo producto.\n\n 1. SI\n 2.NO")
-    switch (pedido) {
-        case '1':
-            productos.pop();
-            console.table(productos.length)
-            break;
-        case '2':
-            console.log("Gracias x tu compra.");
-            console.table(productos)
-            break;
-        default:
-            console.log('Ingrese una opción válida');
-            break;
-    }
-}while(pedido != '3')
-*/
 
 // ---------- Desafio 1 -----------
 //Pedirle al usuario un numero para luego escribir la tabla de multiplicar
