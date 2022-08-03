@@ -13,9 +13,10 @@ const producto2 = new Producto("Espejo rectangulo", 1, 7000)
 const producto3 = new Producto("Espejo Especial", 1, 10000)
 
 const productos = [producto1, producto2, producto3]
-
+productos.pop()
+productos.push(new Producto("Espejo Personalizado", 1, 9000))
 console.log(productos)
-
+console.log("Se elimino del carrito el Espejo Especial y se agrego el Espejo Personalizados")
 
 
 /*
