@@ -1,20 +1,60 @@
+// ------------- Desafio 3 ------------
+
+class Producto {
+    constructor(nombre, cantidad, precio){
+        this.nombre = nombre
+        this.cantidad = cantidad
+        this.precio = precio
+    }
+}
+
+const producto1 = new Producto("Espejo circular", 1, 4000)
+const producto2 = new Producto("Espejo rectangulo", 1, 7000)
+const producto3 = new Producto("Espejo Especial", 1, 10000)
+
+const productos = [producto1, producto2, producto3]
+
+console.log(productos)
+
+
+
+/*
+do{
+    pedido = prompt("Desea eliminar el ultimo producto.\n\n 1. SI\n 2.NO")
+    switch (pedido) {
+        case '1':
+            productos.pop();
+            console.table(productos.length)
+            break;
+        case '2':
+            console.log("Gracias x tu compra.");
+            console.table(productos)
+            break;
+        default:
+            console.log('Ingrese una opción válida');
+            break;
+    }
+}while(pedido != '3')
+*/
+
+// ---------- Desafio 1 -----------
 //Pedirle al usuario un numero para luego escribir la tabla de multiplicar
-// let num = parseInt(prompt("Ingrese un numero para detallar la tabla"));
-// for (i = 1; i<=10; i++){
-//     multiresul = num *i;
-//     console.log(num + "X"+ i + "=" + multiresul);
-// }
+/*let num = parseInt(prompt("Ingrese un numero para detallar la tabla"));
+for (i = 1; i<=10; i++){
+    multiresul = num *i;
+    console.log(num + "X"+ i + "=" + multiresul);
+}
 
 //Pedir un numero por prompt, repetir la salida del mensaje "Hola" la cantidad de veces ingresada.
-// let num = parseInt(prompt("Ingrese un numero para escribir la cantidad de veces Hola"))
-// let palabra = "Hola"
-// for (let i = 1; i<=num; i++){
-//     console.log(i + " " + palabra);
-// }
+let num = parseInt(prompt("Ingrese un numero para escribir la cantidad de veces Hola"))
+let palabra = "Hola"
+for (let i = 1; i<=num; i++){
+    console.log(i + " " + palabra);
+}
+*/
 
-
-
-function saludo() {
+// ---------- Desafio 2 ------------
+/*function saludo() {
     alert('¡Hola!, Bienvenido marca una opcion en la siguiente casilla y te dire de que elemento es tu signo');
 }
 saludo();
@@ -42,5 +82,6 @@ do{
             break;
     }
 }while(opcion !='4')
+*/
 
 
